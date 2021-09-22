@@ -1,0 +1,467 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    transition: all .5s ease-in-out;
+}
+
+.close {
+    font-size: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar ul {
+    height: 100%;
+    width: 20vw;
+    background: #2c3e50;
+    flex-flow: column;
+    justify-content: center;
+    position: relative;
+}
+
+.navbar ul li {
+    padding: 4rem 2rem;
+}
+
+.navbar ul li a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.navbar ul li a:hover {
+    color: gray;
+}
+
+.active {
+    left: 0;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a i {
+    font-size: 40px;
+    color: #000;
+}
+
+header {
+    background: url('./images/activity-7/hero-bg.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+header .content {
+    color: #fff;
+    padding-top: 300px;
+    width: 600px;
+    margin-left: 250px;
+    text-transform: uppercase;
+}
+
+.hero-bottom {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+header .content h2 {
+    font-size: 100px;
+}
+
+header .content h3 {
+    font-size: 60px;
+}
+
+header .content hr {
+    width: 100%;
+    border: 5px solid #fff;
+    background: #fff;
+}
+
+.hero-bottom .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    color: red;
+    margin-bottom: 20px;
+}
+
+/* ------ SERVICES ------ */
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(239, 231, 231);
+}
+
+.services .container {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 700px;
+    border: solid red;
+}
+
+.services h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.services h1 {
+    text-transform: capitalize;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.services p {
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 20px;
+    background: red;
+    color: #fff;
+    border: 1px solid red;
+    padding: 18px 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* -----NEED HELP----- */
+
+.need-help .container {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid cadetblue;
+}
+
+.left-section, .right-section {
+    flex-basis: 48%;
+    width: 100%;
+    border: solid red;
+}
+
+.left-section .grid-text {
+    margin: 40px auto;
+}
+
+.grid-text {
+    width: 400px;
+    height: 100px;
+    border: solid cyan;
+}
+
+.left-section img, .right-section img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.right-section .grid-text h2 {
+    margin-top: 35px;
+}
+
+.right-section img {
+    margin-top: 80px;
+}
+
+/* -----BEST QUALITY----- */
+
+.best-quality {
+    background: rgb(177, 169, 169);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    border: solid red;
+}
+
+.best-quality .container .image img {
+    height: 650px;
+    object-fit: cover;
+}
+
+.best-quality .image {
+    flex-basis: 25%;
+}
+
+.best-quality .texts {
+    flex-basis: 50%;
+}
+
+.texts h1 {
+    color: blue;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.texts hr {
+    background: red;
+    width: 97%;
+    border: 5px solid red;
+}
+
+.texts p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.white-btn {
+    background: transparent;
+    color: red;
+    border: 1px solid red;
+}
+
+
+/* ----- our services ----- */
+
+#our-services .content {
+    width: 75%;
+    margin: 70px auto 100px;
+    border: solid green;
+}
+
+.content .row-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#our-services .content h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.content .row-content .row-item {
+    width: 30%;
+}
+
+.row-item .icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .row-content .row-item h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+.content .row-content .row-item p{
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+.flex .image {
+    width: 100%;
+}
+
+.flex .image img {
+    width: 450px;
+}
+
+/* ----- ABOUT ----- */
+
+.about {
+    background: blue;
+    color: #fff;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    border: solid blue;
+}
+
+.container .left-col {
+    flex-basis: 35%;
+}
+
+.left-col h4 {
+    text-transform: uppercase;
+}
+
+.left-col h2 {
+    font-size: 40px;
+}
+
+.container .right-col {
+    flex-basis: 65%;
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-row-gap: 35px;
+    border: solid red;
+}
+
+.container .right-col img {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width: 1350px) {
+    .need-help .container {
+        width: 90%;
+        border: solid green;
+    }
+
+    .flex {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .about .container {
+        width: 90%;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+
+    .container .right-col {
+        width: 100%;
+    }
+
+    .container .right-col img {
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #our-services .content {
+        width: 90%;
+    }
+
+    header .content {
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .flex {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .best-quality .texts {
+        margin-top: 100px;
+    }
+
+    .flex .image {
+       display: flex;
+       justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .need-help .container {
+        width: 95%;
+    }
+
+    .need-help .container {
+        flex-direction: column;
+    }
+
+    .left-section .grid-text {
+        margin: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 789px) {
+
+    .content .row-content {
+        flex-direction: column;
+    }
+
+    .content .row-content .row-item {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    
+    .services .container {
+        text-align: center;
+        padding: 100px 20px;
+        width:100%;
+        border: solid red;
+    }
+
+    .flex .image img {
+        width: 300px;
+        object-fit: cover;
+    }
+
+}
+
+/* @media only screen and (max-width: 750px) {
+    .flex .image img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .flex .image img {
+        width: 260px;
+    }
+} */
