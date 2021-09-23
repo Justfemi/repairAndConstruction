@@ -502,6 +502,10 @@ button {
         padding: 0 50px;
     }
 
+    .navbar ul {
+        width: 50%;
+    }
+
     .content .row-content {
         flex-direction: column;
     }
@@ -561,5 +565,9 @@ button {
 @media only screen and (max-width: 425px){
     nav {
         padding: 0 25px;
+    }
+
+    .navbar ul {
+        width: 80%;
     }
 } 
