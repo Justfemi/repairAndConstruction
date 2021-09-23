@@ -210,7 +210,6 @@ button {
 .grid-text {
     width: 500px;
     height: 150px;
-    /* border: solid cyan; */
 }
 
 .left-section img, .right-section img {
@@ -458,7 +457,8 @@ button {
     }
 
     header .content {
-        margin-left: 150px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -467,6 +467,10 @@ button {
         flex-wrap: wrap;
         flex-direction: column;
     }
+/* 
+    header {
+        background-size: contain;
+    } */
 
     .best-quality .texts {
         margin-top: 100px;
@@ -520,6 +524,35 @@ button {
         flex-direction: column;
     }
 
+    .content .hero-bottom {
+        display: none;
+    }
+
+    header .content {
+        width: 70%;
+    }
+    
+    header .content h3 {
+        margin-top: 100px;
+    }
+
+    header .content hr {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    header .content h3 {
+        font-size: 30px;
+    }
+
+    header .content h2 {
+        font-size: 40px;
+    }
+
+    .grid-text {
+        width: 85%;
+    }
 }
 
 /* @media only screen and (max-width: 750px) {
