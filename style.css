@@ -1,5 +1,5 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
 * {
     margin: 0;
@@ -97,11 +97,15 @@ header .content {
 }
 
 header .content h2 {
-    font-size: 100px;
+    font-size: 80px;
+    font-family: 'Archivo-black', sans-serif;
 }
 
 header .content h3 {
     font-size: 60px;
+    font-size: 48px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
 }
 
 header .content hr {
@@ -121,13 +125,19 @@ header .content hr {
     margin-bottom: 20px;
 }
 
+.item p {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
 /* ------ SERVICES ------ */
 
 .services {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(239, 231, 231);
+    background: #f2f2f2;
 }
 
 .services .container {
@@ -135,33 +145,37 @@ header .content hr {
     padding-top: 100px;
     padding-bottom: 100px;
     width: 700px;
-    border: solid red;
 }
 
 .services h4 {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
 }
 
 .services h1 {
     text-transform: capitalize;
     font-size: 50px;
     padding-top: 20px;
+    color: #111111;
 }
 
 .services p {
     padding-top: 20px;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Open-sans', sans-serif;
+    color: #111111;
 }
 
 button {
     margin-top: 20px;
-    background: red;
+    background: #e71a23;
     color: #fff;
-    border: 1px solid red;
-    padding: 18px 30px;
+    border: 1px solid #e71a23;
+    padding: 16px 36px;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 5px;
 }
 
@@ -173,23 +187,30 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid cadetblue;
+    /* border: solid cadetblue; */
 }
 
 .left-section, .right-section {
     flex-basis: 48%;
     width: 100%;
-    border: solid red;
+    /* border: solid red; */
 }
 
 .left-section .grid-text {
     margin: 40px auto;
 }
 
+.left-section .grid-text p {
+   color: #111111;
+   font-size: 16px;
+   line-height: 30px;
+   font-family: 'Open=sans', sans-serif;
+}
+
 .grid-text {
-    width: 400px;
-    height: 100px;
-    border: solid cyan;
+    width: 500px;
+    height: 150px;
+    /* border: solid cyan; */
 }
 
 .left-section img, .right-section img {
@@ -199,7 +220,19 @@ button {
 }
 
 .right-section .grid-text h2 {
-    margin-top: 35px;
+    margin-top: 50px;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    color: #111111;
+}
+
+.right-section .grid-text p {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #e71a23;
 }
 
 .right-section img {
@@ -220,7 +253,7 @@ button {
     width: 70%;
     align-items: center;
     justify-content: space-between;
-    border: solid red;
+    /* border: solid red; */
 }
 
 .best-quality .container .image img {
@@ -237,26 +270,38 @@ button {
 }
 
 .texts h1 {
-    color: blue;
-    font-size: 70px;
+    color: #104e92;
+    font-size: 60px;
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }
 
 .texts hr {
-    background: red;
+    background: #e71a23;
     width: 97%;
-    border: 5px solid red;
+    border: 5px solid #e71a23;
 }
 
 .texts p {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 30px;
+    color: #111111;
+    line-height: 30px;
+    font-family: 'Open-sans', sans-serif;
+}
+
+.btn-bag {
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .white-btn {
     background: transparent;
-    color: red;
-    border: 1px solid red;
+    color: #454545;
+    border: 1px solid #454545;
 }
 
 
@@ -265,7 +310,7 @@ button {
 #our-services .content {
     width: 75%;
     margin: 70px auto 100px;
-    border: solid green;
+    /* border: solid green; */
 }
 
 .content .row-content {
@@ -277,7 +322,8 @@ button {
 
 #our-services .content h1 {
     text-transform: capitalize;
-    font-size: 40px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .content .row-content .row-item {
@@ -295,13 +341,15 @@ button {
 }
 
 .content .row-content .row-item h3{
-    font-size: 25px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     margin-top: 15px;
 }
 
 .content .row-content .row-item p{
     font-size: 18px;
+    font-family: 'Open-sans', sans-serif;
     font-style: italic;
     margin-top: 15px;
 }
@@ -317,7 +365,7 @@ button {
 /* ----- ABOUT ----- */
 
 .about {
-    background: blue;
+    background:#104e92;
     color: #fff;
 }
 
@@ -327,7 +375,7 @@ button {
     justify-content: center;
     width: 80%;
     margin: 0 auto;
-    border: solid blue;
+    /* border: solid blue; */
 }
 
 .container .left-col {
@@ -336,10 +384,20 @@ button {
 
 .left-col h4 {
     text-transform: uppercase;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .left-col h2 {
-    font-size: 40px;
+    font-size: 72px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.left-col h2 span {
+    font-weight: bolder;
+    text-transform: capitalize;
 }
 
 .container .right-col {
@@ -348,7 +406,8 @@ button {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-row-gap: 35px;
-    border: solid red;
+    margin: 30px 0;
+    /* border: solid red; */
 }
 
 .container .right-col img {
@@ -361,7 +420,7 @@ button {
 @media only screen and (max-width: 1350px) {
     .need-help .container {
         width: 90%;
-        border: solid green;
+        /* border: solid green; */
     }
 
     .flex {
@@ -373,6 +432,10 @@ button {
     .about .container {
         width: 90%;
         flex-direction: column;
+    }
+
+    .left-col {
+        margin-top: 50px;
     }
 }
 
@@ -407,6 +470,7 @@ button {
 
     .best-quality .texts {
         margin-top: 100px;
+        padding-bottom: 30px;
     }
 
     .flex .image {
@@ -444,12 +508,16 @@ button {
         text-align: center;
         padding: 100px 20px;
         width:100%;
-        border: solid red;
+        /* border: solid red; */
     }
 
     .flex .image img {
         width: 300px;
         object-fit: cover;
+    }
+
+    .btn-bag {
+        flex-direction: column;
     }
 
 }
